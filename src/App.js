@@ -8,8 +8,6 @@ function App() {
   return (
     <div className="wrapper">
     <Header />
-    <Button outline>кнопка</Button>
-    <Button>ерак </Button>
      <div className="content">
        <div className="container">
          <div className="content__top">
