@@ -15,8 +15,12 @@ function App() {
     React.useEffect(() => {
       axios.get('http://localhost:3000/db.json').then(({data}) => {
         setPizzas(data.pizzas);
+<<<<<<< HEAD
       })
 
+=======
+      });
+>>>>>>> 5156bce4fd003d01c60b0852bc5d959eeb0ccc9b
     }, []);
 
 

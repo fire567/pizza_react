@@ -9,7 +9,11 @@
     "axios": "^0.21.0",
     "classnames": "^2.2.6",
     "node-sass": "^4.14.1",
+<<<<<<< HEAD
     "prop-types": "^15.7.2",
+=======
+    "prop-type": "0.0.1",
+>>>>>>> 5156bce4fd003d01c60b0852bc5d959eeb0ccc9b
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.2",

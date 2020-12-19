@@ -97,4 +97,18 @@ PizzaBlock.defaultProps = {
 
 }
 
+    PizzaBlock.propTypes = {
+      name: PropTypes.string.isRequired,
+      price: PropTypes.number.isRequired,
+      types: PropTypes.arrayOf(PropTypes.number).isRequired,
+      sizes: PropTypes.array.isRequired,
+    }
+
+    PizzaBlock.defaultProps = {
+      name: '---',
+      price: 0,
+      types: [],
+      sizes: [],
+    }
+
 export default PizzaBlock;
