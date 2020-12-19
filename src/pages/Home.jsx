@@ -22,9 +22,9 @@ function Home({ items }){
         <SortPopup
 
          items={[
-           'Популярности',
-           'Цене',
-           'Алфавиту'
+           {name: 'Популярности', type: 'popular'},
+           {name: 'Цене', type: 'price' },
+           {name: 'Алфавиту', type: 'alphabet'},
          ]}
         />
       </div>
@@ -35,7 +35,7 @@ function Home({ items }){
         <PizzaBlock
         key={obj.id}
         {...obj}
-        
+
         />)
       }
 
